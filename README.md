@@ -37,8 +37,8 @@ This project integrates the powerful **YOLOv9** object detection algorithm with 
 
 2. **Clone This Repository:**
    ```bash
-   git clone https://github.com/ROBERT-ADDO-ASANTE-DARKO/Autonomous-Vehicle-Object-Detection-and-Trajectory-Planning-using-YOLOv3-and-CARLA-Simulator.git
-   cd Autonomous-Vehicle-Object-Detection-and-Trajectory-Planning-using-YOLOv3-and-CARLA-Simulator
+   git clone https://github.com/ROBERT-ADDO-ASANTE-DARKO/YOLOv9-DeepSORT-realtime-object-tracking-CARLA.git
+   cd YOLOv9-DeepSORT-realtime-object-tracking-CARLA
    ```
 
 3. **Install Dependencies:**
