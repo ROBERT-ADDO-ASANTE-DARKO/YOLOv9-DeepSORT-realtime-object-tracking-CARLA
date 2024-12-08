@@ -26,15 +26,15 @@ This project leverages the cutting-edge YOLOv9 object detection algorithm combin
    cd CARLA_0.9.11
    ```
 
-3. Install CARLA_0.9.11 following the official documentation.
+2. Install CARLA_0.9.11 following the official documentation.
 
-4. Clone this project repository:
+3. Clone this project repository:
    ```
    https://github.com/ROBERT-ADDO-ASANTE-DARKO/Autonomous-Vehicle-Object-Detection-and-Trajectory-Planning-using-YOLOv3-and-CARLA-Simulator.git
    cd Autonomous-Vehicle-Object-Detection-and-Trajectory-Planning-using-YOLOv3-and-CARLA-Simulator
    ```
 
-5. Install the required Python libraries:
+4. Install the required Python libraries:
    ```
    pip install -r requirements.txt
    ```
@@ -64,17 +64,17 @@ This project leverages the cutting-edge YOLOv9 object detection algorithm combin
 1. Clone the YOLOv9 GitHub repository:
    ```
    https://github.com/WongKinYiu/yolov9
+   cd yolov9
    ```
 
-2. Open a web browser and go to `http://localhost:6006` to view the TensorBoard dashboard.
+2. Copy the recorded video in CARLA and paste it in the yolov9 directory.
+   
+3. Copy the `detect_dual_tracking.py` file to the yolov9 directory.
 
-## Project Structure
-
-- `object_detection.py`: Main Python script for object detection and trajectory planning
-- `requirements.txt`: List of required Python libraries
-- `models/`: Directory containing trained YOLOv3 model weights
-- `config/`: Directory containing trained YOLOv3 model configurations
-- `logs/`: TensorBoard log files for performance monitoring
+4. In a new terminal, navigate to the yolov9 directory and run the script:
+   ```
+    python detect_dual_tracking.py --weights 'yolov9-c.pt' --source '/yolov9/video.mp4' --device 'cpu'
+   ```
 
 ## Contributing
 
