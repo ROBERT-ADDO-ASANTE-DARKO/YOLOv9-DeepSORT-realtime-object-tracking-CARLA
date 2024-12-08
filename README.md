@@ -30,6 +30,7 @@ This project integrates the powerful **YOLOv9** object detection algorithm with 
 1. **Download and Set Up CARLA Simulator:**
    - Download CARLA 0.9.11 from the [CARLA releases page](https://github.com/carla-simulator/carla/releases).
    - Extract the ZIP file and follow the [CARLA official documentation](https://carla.readthedocs.io/) for installation.
+     
    ```bash
    cd CARLA_0.9.11
    ```
