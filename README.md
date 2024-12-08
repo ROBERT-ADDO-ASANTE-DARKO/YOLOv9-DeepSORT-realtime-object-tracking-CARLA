@@ -63,7 +63,7 @@ This project leverages the cutting-edge YOLOv9 object detection algorithm combin
 
 1. Clone the YOLOv9 GitHub repository:
    ```
-   tensorboard --logdir=path/to/logs
+   https://github.com/WongKinYiu/yolov9
    ```
 
 2. Open a web browser and go to `http://localhost:6006` to view the TensorBoard dashboard.
