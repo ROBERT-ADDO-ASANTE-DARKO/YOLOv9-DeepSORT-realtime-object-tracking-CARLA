@@ -116,13 +116,3 @@ Contributions are welcome! If you'd like to improve this project:
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-This improved README has:
-1. **Better organization** with clear sections.
-2. **Improved formatting** for readability.
-3. Added **results and visualizations** section.
-4. Enhanced **contribution instructions** for collaboration clarity.
-
-Let me know if you'd like further customizations!
