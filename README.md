@@ -41,33 +41,27 @@ This project leverages the cutting-edge YOLOv9 object detection algorithm combin
 
 ## Usage
 
-1. Copy the `object_detection.py` file to the CARLA PythonAPI examples directory:
+1. Copy the `trajectory_planning.py` file to the CARLA PythonAPI examples directory:
    ```
-   cp object_detection.py CARLA_0.9.11/PythonAPI/examples/
+   cp trajectory_planning.py CARLA_0.9.11/PythonAPI/examples/
    ```
 
-2. Download the yolov3.weights and yolo3.cfg files
-   https://huggingface.co/spaces/Epitech/Scarecrow/resolve/main/yolov3.weights
-   https://www.kaggle.com/datasets/ravi02516/trained-weights-and-cfg?select=yolov3.cfg
-
-4. Run the CARLA Simulator:
+2. Run the CARLA Simulator:
    ```
    cd CARLA_0.9.11
    ./CarlaUE4.exe
    ./CarlaUE4 -dx11
    ```
 
-5. In a new terminal, navigate to the PythonAPI examples directory and run the script:
+3. In a new terminal, navigate to the PythonAPI examples directory and run the script:
    ```
    cd CARLA_0.9.11/PythonAPI/examples
-   python object_detection.py
+   python trajectory_planning.py
    ```
 
-## Monitoring Model Performance
+## YOLOv9 and DeepSORT object tracking
 
-To monitor and track the YOLOv3 model performance using TensorBoard:
-
-1. Start TensorBoard:
+1. Clone the YOLOv9 GitHub repository:
    ```
    tensorboard --logdir=path/to/logs
    ```
