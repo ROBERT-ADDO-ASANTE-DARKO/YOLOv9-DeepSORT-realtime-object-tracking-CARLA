@@ -17,6 +17,10 @@ This project integrates the powerful **YOLOv9** object detection algorithm with 
 - **PyTorch**: Deep learning framework.
 - **NumPy**: Numerical computations.
 
+https://github.com/user-attachments/assets/9572abdc-eaa7-4baf-94b4-c9dad4d79f10
+
+
+
 ---
 
 ## Installation
